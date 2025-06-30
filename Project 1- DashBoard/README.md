@@ -1,6 +1,6 @@
 # 📊 Excel Salary Dashboard – Data Science Jobs in India
 
-![Dashboard Snapshot]( data/Resourses/1_Salary_Dashboard_Final_Dashboard.gif)
+![Dashboard Snapshot](/data/Resourses/1_Salary_Dashboard_Final_Dashboard.gif)  
 
 ##  Introduction
 
@@ -35,7 +35,7 @@ The dataset used in this dashboard is sourced from Luke Barousse’s platform [d
 -  Work Schedule  
 -  Required Skills  
 
- **Dataset used in this project**: [Data](data)  
+ **Datasets used in this project**: [Data](/data)  
  **Note**: All salaries are provided in USD.
 
 ---
@@ -47,12 +47,12 @@ Though the dashboard is built step-by-step following the course, I spent time **
 ### 📊 Charts
 
 - **Bar Chart** for Median Salary by Job Title  
-![]( data/Resourses/1_Salary_Dashboard_Chart1.png)
+![](/data/Resourses/1_Salary_Dashboard_Chart1.png)  
   → Clear visualization of high-paying roles  
   → Sorted for better comparison  
 
 - **Map Chart** for Country-wise Salary  
-![]( data/Resourses/1_Salary_Dashboard_Country_Map.gif)
+![](/data/Resourses/1_Salary_Dashboard_Country_Map.gif)  
   → Highlights how location affects pay  
   → Helpful for global job seekers
 
@@ -78,12 +78,12 @@ Used this array formula to return **custom median salaries** filtered by job tit
 
 Implemented dropdowns to ensure clean filtering across:
 
-<img src="data/Resourses/1_Salary_Dashboard_Data_Validation.gif" width="300" height="280" alt="Data Validation GIF">
+<img src="/data/Resourses/1_Salary_Dashboard_Data_Validation.gif" width="300" height="280" alt="Data Validation GIF">  
 
 
 - **Job Titles**
 
-![]( data/Resourses/1_Salary_Dashboard_Screenshot1.png)  
+![](/data/Resourses/1_Salary_Dashboard_Screenshot1.png)  
 
 
 #### ⏰ Count of Job Schedule Type
@@ -93,15 +93,15 @@ Implemented dropdowns to ensure clean filtering across:
 ```
 
 - 🔍 **Unique List Generation:** This Excel formula below employs the `FILTER()` function to exclude entries containing "and" or commas, and omit zero values.
-- ** Formula Purpose:** This formula populates the table below, which gives us a list of unique job schedule types.
+- **Formula Purpose:** This formula populates the table below, which gives us a list of unique job schedule types.
 
 🍽️ Background Table
 
-![1_Salary_Dashboard_Type.png](data/Resourses/1_Salary_Dashboard_Screenshot2.png)
+![1_Salary_Dashboard_Type.png](/data/Resourses/1_Salary_Dashboard_Screenshot2.png)  
 
 📉 Dashboard Implementation:
 
-<img src="data/Resourses/1_Salary_Dashboard_Type.png" width="350" height="500" alt="Salary Dashboard Type">
+<img src="/data/Resourses/1_Salary_Dashboard_Type.png" width="350" height="500" alt="Salary Dashboard Type">  
 
 ### ❎ Data Validation
 
@@ -112,7 +112,7 @@ Implemented dropdowns to ensure clean filtering across:
     -  Incorrect or inconsistent entries are prevented
     -  Overall usability of the dashboard is enhanced
 
-<img src="data/Resources/1_Salary_Dashboard_Data_Validation.gif" width="425" height="400" alt="Salary Dashboard Data Validation">
+<img src="/data/Resources/1_Salary_Dashboard_Data_Validation.gif" width="425" height="400" alt="Salary Dashboard Data Validation">  
 
 
 ### 📌 Use Case
