@@ -33,9 +33,9 @@ The dataset used in this dashboard is sourced from Luke Barousse’s platform [d
 -  Salary Averages (in USD)  
 -  Country & Location  
 -  Work Schedule  
-- 🛠 Required Skills  
+-  Required Skills  
 
- **Dataset used in this project**: [Data](Excel_Project-Data_Analytics/data)  
+ **Dataset used in this project**: [Data](data)  
  **Note**: All salaries are provided in USD.
 
 ---
