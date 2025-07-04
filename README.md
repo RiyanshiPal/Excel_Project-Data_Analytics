@@ -1,6 +1,6 @@
 # 📚 Excel Projects – Data Job Market Analysis
 
-Welcome! This repository contains two Excel-based data analysis projects created **along with Luke Barousse’s _Excel for Data Analysis_ course**. While following his guided tutorials, I customized and extended the projects with additional insights—especially tailored to the **Indian job market**.
+Welcome! This repository contains two Excel-based data analysis projects. I customized them to navigate and analyse the Data Science Job market and extended the projects with additional insights—especially tailored to the **Indian job market**.
 
 ---
 
@@ -8,8 +8,7 @@ Welcome! This repository contains two Excel-based data analysis projects created
 
 ### 1️⃣ [Salary Dashboard – Job Titles & Filters](/Project%201-%20DashBoard)
 
-**Built Alongside:** Luke Barousse 
-**My Additions:** Filter optimization, Indian market focus, and advanced formulas
+ **Features:** Filter optimization, Indian market focus, and advanced formulas
 
 **Goal:** Help job seekers filter and understand salary trends by **job title**, **country**, and **work schedule**.
 
@@ -31,8 +30,7 @@ Welcome! This repository contains two Excel-based data analysis projects created
 
 ### 2️⃣ [Skills vs Salary – Analysis with Power Tools](/Project%202-%20Analysis)
 
-**Built Alongside:** Luke Barousse
-**My Additions:** Extended skills breakdown, US vs Non-US insights
+**Features:** Extended skills breakdown, US vs Non-US insights
 
 **Goal:** Explore how **skills, location, and job titles** influence salaries in the data industry.
 
