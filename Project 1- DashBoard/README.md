@@ -25,7 +25,7 @@ As someone based in India and exploring data science, I’ve tailored this dashb
 
 ---
 
-## 🗂 Dataset Information
+##  Dataset Information
 
 The dataset used in this dashboard is sourced from Luke Barousse’s platform [datanerd.tech](https://datanerd.tech/), which aggregates job postings across the globe. It contains **up to 3 million job listings** from 2023 and covers:
 
@@ -56,7 +56,7 @@ Though the dashboard is built step-by-step following the course, I spent time **
   → Highlights how location affects pay  
   → Helpful for global job seekers
 
-### 🧮 Formulas
+###  Formulas
 
 ```excel
 =MEDIAN(
@@ -71,7 +71,7 @@ Though the dashboard is built step-by-step following the course, I spent time **
 ```
 Used this array formula to return **custom median salaries** filtered by job title, country, and job type.
 
-💡 *This helped me understand multi-criteria filtering and the power of dynamic tables in Excel.*
+ *This helped me understand multi-criteria filtering and the power of dynamic tables in Excel.*
 
 
 ### ❎ Data Validation
@@ -86,7 +86,7 @@ Implemented dropdowns to ensure clean filtering across:
 ![](/data/Resourses/1_Salary_Dashboard_Screenshot1.png)  
 
 
-#### ⏰ Count of Job Schedule Type
+#### Count of Job Schedule Type
 
 ```
 =FILTER(J2#,(NOT(ISNUMBER(SEARCH("and",J2#))+ISNUMBER(SEARCH(",",J2#))))*(J2#<>0))
@@ -95,7 +95,7 @@ Implemented dropdowns to ensure clean filtering across:
 - 🔍 **Unique List Generation:** This Excel formula below employs the `FILTER()` function to exclude entries containing "and" or commas, and omit zero values.
 - **Formula Purpose:** This formula populates the table below, which gives us a list of unique job schedule types.
 
-🍽️ Background Table
+ Background Table
 
 ![1_Salary_Dashboard_Type.png](/data/Resourses/1_Salary_Dashboard_Screenshot2.png)  
 
