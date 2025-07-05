@@ -1,7 +1,7 @@
 
 # 📊 Excel Salary Dashboard – Data Science Jobs in India
 
-## 👋 Introduction
+## Introduction
 
 As someone starting out in the data field, I found the job market to be both exciting and overwhelming. With so many titles, salary ranges, and required skills, I wanted to build something that would make sense of it all—for myself and others at a similar stage.
 
@@ -41,18 +41,18 @@ It includes detailed information on:
 
 ###  Skill: Power Query (ETL)
 
-#### 📥 Extract
+####  Extract
 
 - I first used Power Query to extract the original data (`data_salary_all.xlsx`) and create two queries:
     -  First one with all the data jobs information.
     -  The second listing the skills for each job ID.
 
-#### 🔄 Transform
+####  Transform
 
 - Then, I transformed each query by changing column types, removing unnecessary columns, cleaning text to eliminate specific words, and trimming excess whitespace.
     
         
-#### 🔗 Load
+####  Load
 
 - Finally, I loaded both transformed queries into the workbook, setting the foundation for my subsequent analysis.
     
@@ -72,7 +72,7 @@ It includes detailed information on:
 
 ## 2️⃣ What’s the salary for data jobs in different regions?
 
-### 🧮 Skills: PivotTables & DAX
+###  Skills: PivotTables & DAX
 
 #### Pivot Table
 
@@ -85,7 +85,7 @@ It includes detailed information on:
         data_jobs_all[job_country] = "United States")
     ```
 
-#### 🧮 DAX
+####  DAX
 
 - To calculate the median year salary I used DAX.
 
@@ -115,7 +115,7 @@ It includes detailed information on:
 -  Since I had already cleaned the data using Power Query; Power Pivot created a relationship between these two tables.
 
 
-#### 📃 Power Pivot Menu
+####  Power Pivot Menu
 
 - The Power Pivot menu was used to refine my data model and makes it easy to create measures.
 
@@ -125,7 +125,7 @@ It includes detailed information on:
 #### Insights
 
 - 💻 SQL and Python dominate as top skills in data-related jobs, reflecting their foundational role in data processing and analysis.
-- ☁️ Emerging technologies like AWS and Azure also show significant presence, underlining the industry's shift towards cloud services and big data technologies.
+-  Emerging technologies like AWS and Azure also show significant presence, underlining the industry's shift towards cloud services and big data technologies.
 
     ![2_Project_Analysis_Chart3.png](/data/Resourses/2_Project_Analysis_Chart3.png)
 
@@ -161,7 +161,7 @@ Even though I closely followed Luke's course, I learned how to think like a **da
 
 ---
 
-## 💬 Final Thought
+##  Final Thought
 
 > _“The job market is vast, but with the right tools and understanding, it becomes navigable.”_
 
